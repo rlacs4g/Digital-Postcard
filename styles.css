@@ -1,0 +1,79 @@
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: black;
+    font-size: 20px;
+}
+
+.container{
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    overflow: auto;
+    background: white;
+
+}
+
+.top-container{
+    padding: 10px;
+
+    overflow: auto;
+}
+
+
+.mid-container{
+    padding: 20px;
+
+    overflow: auto;
+}
+.bot-container{
+
+    padding: 10px;
+
+    position: relative;
+}
+
+.top-container-child{
+    float: left;
+    padding: 10px;
+    padding-left: 20px;
+
+}
+.mid-container-child{
+    float: left;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.top-right-side {
+
+    padding-top: 10px;
+    float: right;
+    padding-right: 20px;
+
+
+
+}
+.mid-right-side {
+    float: right;
+    padding-right: 20px;
+
+}
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+input[type=button] {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

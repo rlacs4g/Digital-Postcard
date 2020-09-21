@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!--Main container-->
+<div class="container">
+
+        <!--Top container holding top right stamp(img) and h1-->
+        <div class="top-container">
+            <div class="top-container-child">
+                <h1 >My Postcard</h1> 
+            </div>
+            <div class="top-right-side">
+                <img  src="http://assets.breatheco.de/apis/img/icon/4geeks.png"  width="75" height="75">   
+            </div>
+
+        </div>
+
+        <!--mid container holding p and input-->
+        <div class="mid-container">
+            <div class="mid-container-child">
+                <p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p> 
+                <p>This is so cool, can't wait to start doing more stuff!</p>                
+            </div>
+            <div class="mid-right-side">
+                <form action="/action_page.php">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Some Name"><br><br>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Some Email"><br><br>
+                    <label for="comment"></label>
+                    <input type="text" id="comment" name="comment" placeholder="Some comment"><br><br>
+
+                </form> 
+            </div>
+
+        </div>
+        <!--bot container holding button-->
+        <div class="bot-container">
+            <form>
+                <input type="button" value="Send My Postcard" onclick="msg()">
+            </form>
+        </div>
+
+        </div>
+</div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
